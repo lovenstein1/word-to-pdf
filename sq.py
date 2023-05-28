@@ -1,6 +1,6 @@
 import sqlite3
 
-# Соединение с базой данных (Создаст базу данных, если его нету)
+# Соединение с базой данных (cоздаст базу данных, если его нету)
 conn = sqlite3.connect('example.db')
 
 # Create a cursor object
